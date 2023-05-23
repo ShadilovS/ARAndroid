@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiter"
+    tools:context=".Figure">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/triangle"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/triangle"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/square"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/square"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/cross"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/cross"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/circle"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/circle"
+                android:fontFamily="@font/montserrat_semibold"
+
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/rectangle"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/rectangle"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/star"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/star"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/heart"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/heart"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+
+            <Space
+                android:id="@+id/space"
+                android:layout_width="416dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="65dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="62dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow_black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

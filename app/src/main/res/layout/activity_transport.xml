@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiter"
+    tools:context=".Transport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bus"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/bus"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/train"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/train"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/car"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/car"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/lorry"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/lorry"
+                android:fontFamily="@font/montserrat_semibold"
+
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/taxi"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/taxi"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/boat"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/boat"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/ship"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/ship"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/tank"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/tank"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/bicycle"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/bicycle"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/plain"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/plain"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Space
+                android:id="@+id/space"
+                android:layout_width="416dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="65dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="62dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow_black" />
+</androidx.constraintlayout.widget.ConstraintLayout>

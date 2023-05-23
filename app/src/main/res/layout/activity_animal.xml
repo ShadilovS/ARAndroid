@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiter"
+    tools:context=".Animal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/cat"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/cat"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/fish"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/fish"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/bear"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/bear"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/snake"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/snake"
+                android:fontFamily="@font/montserrat_semibold"
+
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/mouse"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/mouse"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/frog"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/frog"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/elephant"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/elephant"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/crocodile"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/crocodile"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/horse"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/horse"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/monkey"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/monkey"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Button
+                android:id="@+id/cow"
+                android:layout_width="414dp"
+                android:layout_height="257dp"
+                android:paddingLeft="75dp"
+                android:background="@drawable/cow"
+                android:fontFamily="@font/montserrat_semibold"
+                android:paddingBottom="50dp"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="@color/gray"
+                android:textSize="18dp" />
+            <Space
+                android:id="@+id/space"
+                android:layout_width="416dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="65dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="62dp"
+        android:layout_height="85dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/left_arrow_black" />
+</androidx.constraintlayout.widget.ConstraintLayout>
